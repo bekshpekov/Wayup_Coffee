@@ -1,0 +1,99 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    background-color: #e3e3e3;
+    margin: 0;
+    padding: 0;
+    height: 200px;
+    margin-bottom: 32px;
+}
+
+
+.ramp {
+    height: 19px;
+    background-color: #416F4A;
+}
+
+.navblock {
+        
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    padding: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+
+nav { 
+    flex-grow: 1;
+    align-self: center;
+    margin-right: 77px;
+}
+
+.nav_menu {
+    display: flex;
+    align-self: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    list-style: none;
+}
+.nav_menu li {
+    text-transform: uppercase;
+    margin-right: 36px;
+    font-size: 16px;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+.cartBy {
+    align-self: center;
+}
+
+.about {
+    background-color: #F2F0EB;
+    height: 621px;
+    margin-bottom: 32px;
+    
+}
+
+.about .container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.img_wrap {
+    /* display: inline; */
+    position: relative;
+    
+}
+.cofe_img_first {
+    position: absolute;
+    top: 0;
+    left: -220px;
+  
+}
+
+.first_box {
+    width: 740px;   
+    height: 534px;
+    border: 2px solid black;
+    margin-left: auto;
+}
+
+.first_box p {
+    font-size: 72px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 22px;
+
+}
